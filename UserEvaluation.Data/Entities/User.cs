@@ -25,18 +25,24 @@ namespace Shoposphere.Data.Entities
         [StringLength(50)]
         public string LastName { get; set; }
 
+        [Required]
+        [StringLength(11)]
+        public string Phone { get; set; }
+
         public DateTime BirthDate { get; set; }
 
         
 
+
+
         #region Relations
-        public List<Comment> Comments { get; set; }
 
-        
-
-        public UserRole UserRole { get; set; }
-        public int RoleId { get; set; }
+        //public UserRole UserRole { get; set; }
+        public int? RoleId { get; set; }
         public Role Role { get; set; }
+        //public UserRole UserRole { get; set; }
+
+        public List<Evaluation> Evaluations { get; set; }
 
         #endregion
 

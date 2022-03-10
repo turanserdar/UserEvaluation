@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserEvaluation.Admin", "UserEvaluation.Admin\UserEvaluation.Admin.csproj", "{1228B45A-E9A0-44B9-B6D9-BA9544220521}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserEvaluation", "UserEvaluation.Admin\UserEvaluation.csproj", "{1228B45A-E9A0-44B9-B6D9-BA9544220521}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserEvaluation.Services", "UserEvaluation.Services\UserEvaluation.Services.csproj", "{5D5B0989-A75C-435F-9BF2-13C70D667CCD}"
 EndProject
